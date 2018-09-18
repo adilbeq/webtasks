@@ -1,0 +1,29 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f3f5f6;
+}
+.mainHead{
+	font-weight: 900;
+	font-size: 35px;
+	border-right-color: transparent;
+	padding: 10px;
+}
+.cars{
+	padding: 25px;
+}
+.porsh{
+	padding-top: 15px;
+}
+.container{
+	margin-left: 250px;
+	width: 80%;
+	margin: 0 auto;
+}

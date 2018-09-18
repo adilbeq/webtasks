@@ -1,0 +1,24 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.mainPhoto{
+	width: 50%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f3f5f6;
+}
+.mainHead{
+	font-weight: 900;
+	font-size: 35px;
+}
+.cars{
+	padding: 25px;
+}
+.porsh{
+	padding-top: 15px;
+}
