@@ -1,0 +1,59 @@
+.card{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	border: 2px solid #7af7f9;
+	border-radius: 4px;
+	padding: 8px;
+}
+.card section{
+	display: inline-block;
+	position: absolute;
+	margin-left: 5px;
+}
+section a{
+	font-size: 21px;
+}
+.desc{
+	font-size: 20px;
+}
+.price{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    img{
+    	display: none;
+    }
+    .desc{
+    	display: none;
+    }
+    .price{
+    	display: inline-block;
+    	margin-left: 80px;
+    	text-align: right;
+    }
+    a{
+    	display: inline-block;
+    	width: 49%;
+    	
+    }
+    .info{
+    	padding: 0px 10px 18px 10px;
+    }
+	.card{
+		border: 0;
+	}
+	.card section{
+		position: relative;
+		display: block;
+	}
+	section{
+		position: relative;
+		border: 2px solid #7af7f9;
+		border-radius: 4px;
+		
+	}
+}

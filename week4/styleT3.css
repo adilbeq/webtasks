@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.25);
+  z-index: 10000;
+}
+.alert {
+  width: 33.333333%;
+  padding: 15px;
+  left: 0;
+  margin-left: 33.333333%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: 15%;
+  border: 7px solid red;
+  z-index: 10001;
+}
+h1{
+	text-align: center;
+}
+header{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+header a{
+	text-decoration: none;
+	display: inline-block;
+	width: 200px;
+	color: #fff;
+	background-color: #000;
+	font-size: 20px;
+	border: 2px solid red;
+}
+section{
+	display: block;
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+
+}
+div img{
+	border: 2px solid blue;
+	border-radius: 7px;
+}
+.card{
+	display: inline-block;
+	width: 300px;
+}
+.card a{
+	display: inline-block;
+	position: relative;
+	bottom: 170px;
+	left: 20px;
+	border: 0;
+}
+.icon{
+	display: inline-block;
+	border: 0;
+}
+.title{
+	display: inline-block;
+	position: relative;
+	bottom: 190px;
+	background-color: blue;
+	color: white;
+}
