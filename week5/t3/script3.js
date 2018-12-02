@@ -13,7 +13,7 @@ function addStudent(){
 
 		cell1.innerHTML = sName;
 		cell2.innerHTML = sSurname;
-		cell3.innerHTML = sFaculty;
+		cell3.innerHTML = "<strong>"+sFaculty+"</strong>";
 	}
 }
 

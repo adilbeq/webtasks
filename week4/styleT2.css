@@ -32,8 +32,9 @@ section a{
     }
     .price{
     	display: inline-block;
-    	margin-left: 80px;
+    	/*margin-left: 80px;*/
     	text-align: right;
+    	width: 49%;
     }
     a{
     	display: inline-block;

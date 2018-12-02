@@ -1,19 +1,10 @@
-function fWeb () {
-	web.setAttribute("data-status", "done");
+var clicke = document.querySelectorAll('div#tasks div');
+
+for (var i = 0 ; i < clicke.length; i++) {
+    clicke[i].addEventListener('click' , MakeCross) ;
 }
 
-function fGym () {
-	gym.setAttribute("data-status", "done");
-}
-
-function fHome () {
-	home.setAttribute("data-status", "done");
-}
-
-function fProj () {
-	proj.setAttribute("data-status", "done");
-}
-
-function fCalc () {
-	calc.setAttribute("data-status", "done");
+function MakeCross() {
+    var target = event.currentTarget;
+    target.setAttribute("data-status", "done");
 }

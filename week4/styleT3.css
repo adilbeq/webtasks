@@ -2,6 +2,9 @@ body{
 	margin: 0;
 	padding: 0;
 }
+nav a{
+	margin: 0;
+}
 .overlay {
   position: fixed;
   width: 100%;
@@ -28,21 +31,28 @@ body{
 h1{
 	text-align: center;
 }
+nav a:nth-child(4){
+	border-right: 1px solid red;
+}
 header{
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	padding-bottom: 30px;
 }
-
+nav{
+	background-color: #000;
+}
 header a{
+	margin: ;
 	text-decoration: none;
 	display: inline-block;
 	width: 200px;
 	color: #fff;
 	background-color: #000;
 	font-size: 20px;
-	border: 2px solid red;
+	border: 1px solid red;
+	border-right-width: 0;
 }
 section{
 	display: block;
