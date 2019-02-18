@@ -1,0 +1,59 @@
+[class^="hippo-icon-"], [class*=" hippo-icon-"] {
+    font-family : 'fontello';
+    font-style  : normal;
+    font-weight : normal;
+
+    /* fix buttons height */
+    line-height : 1em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+    }
+
+.hippo-icon-mail {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;');
+    }
+
+.hippo-icon-diamond {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;');
+    }
+
+.hippo-icon-star {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
+    }
+
+.hippo-icon-photo {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;');
+    }
+
+.hippo-icon-pencil {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;');
+    }
+
+.hippo-icon-location {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;');
+    }
+
+.hippo-icon-heart {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;');
+    }
+
+.hippo-icon-lightbulb {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;');
+    }
+
+.hippo-icon-mobile {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;');
+    }
+
+.hippo-icon-paper-plane {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;');
+    }
+
+.hippo-icon-beaker {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;');
+    }
+
+.hippo-icon-clock {
+    *zoom : expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;');
+    }

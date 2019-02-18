@@ -1,0 +1,21 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">department</custom-field>
+        <custom-field action="translate">location</custom-field>
+        <custom-field action="translate">education</custom-field>
+        <custom-field action="translate">compensation</custom-field>
+        <custom-field action="translate">contact_link</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">stm_service</custom-type>
+        <custom-type translate="1">stm_testimonial</custom-type>
+        <custom-type translate="1">stm_vc_sidebar</custom-type>
+        <custom-type translate="1">stm_careers</custom-type>
+        <custom-type translate="1">stm_staff</custom-type>
+        <custom-type translate="1">stm_gallery</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">stm_testimonials_category</taxonomy>
+        <taxonomy translate="1">stm_gallery_category</taxonomy>
+    </taxonomies>
+</wpml-config>

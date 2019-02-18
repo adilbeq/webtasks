@@ -1,0 +1,88 @@
+body {
+  .vc_general.vc_btn3{
+    text-transform: uppercase;
+    font-weight: 700;
+    &.vc_btn3-size-md.vc_btn3-style-outline, &.vc_btn3-size-md.vc_btn3-style-outline-custom, &.vc_btn3-size-md.vc_btn3-style-flat{
+      padding: 15px 42px;
+    }
+    &.vc_btn3-size-sm.vc_btn3-style-outline, &.vc_btn3-size-sm.vc_btn3-style-outline-custom, &.vc_btn3-size-sm.vc_btn3-style-flat{
+      padding: 11px 40px;
+    }
+    &.vc_btn3-shape-round{
+      border-radius: 50px;
+    }
+    &.vc_btn3-color-theme_style_1.vc_btn3-style-outline{
+      color: $stm_base_color;
+      border-color: $stm_secondary_color;
+      background: transparent;
+      &:hover{
+        background: $stm_secondary_color;
+        color: #fff;
+      }
+      &:active{
+        background: $stm_secondary_color;
+        color: $stm_base_color;
+      }
+    }
+    &.vc_btn3-color-theme_style_2.vc_btn3-style-outline, &.vc_btn3-color-white.vc_btn3-style-outline{
+      color: #fff;
+      border-color: #fff;
+      background: transparent;
+      &:hover{
+        background: #fff;
+        color: $stm_base_color;
+      }
+      &:active{
+        background: #fff;
+        color: $stm_secondary_color;
+      }
+    }
+    &.vc_btn3-color-theme_style_3.vc_btn3-style-outline{
+      color: #fff;
+      border-color: $stm_secondary_color;
+      background: transparent;
+      &:hover{
+        background: $stm_secondary_color;
+        color: #fff;
+      }
+      &:active{
+        background: $stm_secondary_color;
+        color: $stm_base_color;
+      }
+    }
+    &.vc_btn3-color-theme_style_3.vc_btn3-style-flat{
+      color: #fff;
+      border-color: $stm_secondary_color;
+      background: $stm_secondary_color;
+      border-width: 2px;
+      &:hover{
+        background: transparent;
+        color: $stm_base_color;
+      }
+      &:active{
+        background: $stm_secondary_color;
+        color: $stm_base_color;
+      }
+    }
+    &.vc_btn3-size-md.vc_btn3-icon-right:not(.vc_btn3-o-empty), &.vc_btn3-size-sm.vc_btn3-icon-right:not(.vc_btn3-o-empty){
+      padding-left: 30px;
+      padding-right: 55px;
+      .vc_btn3-icon{
+        right: 22px;
+      }
+    }
+    &.vc_btn3-size-md.vc_btn3-icon-left:not(.vc_btn3-o-empty), &.vc_btn3-size-sm.vc_btn3-icon-left:not(.vc_btn3-o-empty){
+      padding-left: 55px;
+      padding-right: 30px;
+      .vc_btn3-icon{
+        left: 22px;
+      }
+    }
+    &.vc_btn3-size-md .vc_btn3-icon{
+      font-size: 20px;
+      &.stm-arrow-next{
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.vc_services {
+  position: relative;
+  .vc_services_carousel_wr {
+    position: relative;
+    margin: -25px -15px;
+    .vc_services_carousel {
+      position: relative;
+      .item {
+        position: relative;
+        padding: 25px 15px;
+        .item_wr {
+          background: #fff;
+          box-shadow: none;
+          border: 1px solid #e6e6e6;
+          border-radius: 1px;
+          @include transition(all, 0.5s);
+          -webkit-transform: translateZ(0);
+          &:hover {
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+            border-color: transparent;
+          }
+          .item_thumbnail{
+            position: relative;
+            margin: -1px -1px 0 -1px;
+            img{
+              width: 100%;
+            }
+          }
+          .content {
+            padding: 30px;
+            font-size: 13px;
+            @include transition();
+            h6 {
+              font-weight: 600;
+              a {
+                text-decoration: none !important;
+                color: $stm_base_color;
+                @include transition();
+                &:hover {
+                  color: $stm_secondary_color;
+                }
+              }
+              &:before {
+                display: none;
+              }
+            }
+            p {
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .owl-dots {
+    position: relative;
+    margin: 0 0 30px;
+    @include cleaner();
+    .owl-dot {
+      float: left;
+      width: 10px;
+      height: 10px;
+      padding: 3px;
+      margin: 0 15px 0 0;
+      cursor: pointer;
+      @include transition(all, .2s, linear);
+      span {
+        display: block;
+        width: 4px;
+        height: 4px;
+        border: 1px solid #8a929d;
+        background: #8a929d;
+        padding: 0;
+        @include transition(all, .2s, linear);
+        @include border-radius(50%);
+      }
+      &.active {
+        padding: 0;
+        span {
+          width: 10px;
+          height: 10px;
+          background: transparent;
+          border-color: $stm_secondary_color;
+        }
+      }
+    }
+  }
+}

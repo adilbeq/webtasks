@@ -1,0 +1,329 @@
+.staff_list {
+  position: relative;
+  &.list {
+    & > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      & > li {
+        position: relative;
+        margin: 0 0 30px;
+        border: 1px solid #e6e6e6;
+        @include cleaner();
+        @include transition(all, 0.5s);
+        &:hover {
+          box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+          .staff_info .staff_socials {
+            opacity: 1;
+          }
+        }
+        .staff_image {
+          float: left;
+          max-width: 350px;
+          margin: -1px 0 -1px -1px;
+          img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+        }
+        .staff_info {
+          position: relative;
+          overflow: hidden;
+          padding: 37px 30px 10px;
+          h5 {
+            margin: 0 0 13px;
+            &:before {
+              display: none;
+            }
+          }
+          .staff_department {
+            margin: 0 0 30px;
+            font-size: 13px;
+          }
+          .staff_socials {
+            position: absolute;
+            right: 31px;
+            top: 50%;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            opacity: 0;
+            @include transition(all, 0.5s);
+            @include cleaner();
+            li {
+              margin: 0 0 13px;
+              &:last-child {
+                margin: 0;
+              }
+              a {
+                display: block;
+                width: 32px;
+                height: 32px;
+                @include border-radius(32px);
+                background: #d9d9d9;
+                text-align: center;
+                line-height: 32px;
+                color: #fff;
+                font-size: 17px;
+                text-decoration: none !important;
+                @include transition();
+                i {
+                  line-height: 34px;
+                  &.fa-vimeo {
+                    font-size: 14px;
+                  }
+                  &.stm-google-plus {
+                    font-size: 13px;
+                  }
+                }
+                &:hover {
+                  background: $stm_secondary_color;
+                }
+                &.social-facebook:hover {
+                  background: #3a5897;
+                }
+                &.social-twitter:hover {
+                  background: #00aced;
+                }
+                &.social-linkedin:hover {
+                  background: #0077b5;
+                }
+                &.social-google-plus:hover {
+                  background: #db4437;
+                }
+              }
+            }
+          }
+          .staff_phone {
+            position: relative;
+            padding: 0 0 0 25px;
+            margin: 0 0 20px;
+            &:before {
+              content: "\e904";
+              @include theme_icons();
+              position: absolute;
+              left: 0;
+              top: -2px;
+              color: $stm_secondary_color;
+              font-size: 17px;
+            }
+          }
+          .staff_email {
+            position: relative;
+            padding: 0 0 0 25px;
+            margin: 0 0 20px;
+            &:before {
+              content: "\e902";
+              @include theme_icons();
+              position: absolute;
+              left: 0;
+              top: 2px;
+              color: $stm_secondary_color;
+              font-size: 12px;
+            }
+          }
+          .staff_skype {
+            position: relative;
+            padding: 0 0 0 25px;
+            margin: 0 0 20px;
+            &:before {
+              content: "\e94a";
+              @include theme_icons();
+              position: absolute;
+              left: 0;
+              top: -1px;
+              color: $stm_secondary_color;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.grid {
+    &.cols_2{
+      & > ul{
+        & > li{
+          width: 50%;
+        }
+      }
+    }
+    & > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 -15px;
+      font-size: 0;
+      @include cleaner();
+      & > li {
+        float: left;
+        padding: 0 15px;
+        margin: 0 0 30px;
+        font-size: 14px;
+        width: 33%;
+        .staff_wr {
+          border: 1px solid #e6e6e6;
+          @include transition(all, 0.5s);
+          &:hover {
+            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+            border-color: transparent;
+            .staff_image .staff_socials {
+              opacity: 1;
+            }
+            .staff_info {
+              .staff_info_wr {
+                transform: translateY(-75px);
+                -webkit-transform: translateY(-75px);
+                .staff_name_position {
+                  opacity: 0;
+                }
+                .staff_phone_email {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+          .staff_image {
+            position: relative;
+            margin: -1px -1px 0 -1px;
+            img {
+              display: block;
+              max-width: 100%;
+              height: auto;
+            }
+            .staff_socials {
+              position: absolute;
+              left: 50%;
+              bottom: 21px;
+              list-style: none;
+              padding: 0;
+              margin: 0;
+              transform: translateX(-50%);
+              -webkit-transform: translateX(-50%);
+              opacity: 0;
+              @include transition(all, 0.5s);
+              @include cleaner();
+              li {
+                margin: 0 3px;
+                float: left;
+                &:last-child {
+                  margin: 0;
+                }
+                a {
+                  display: block;
+                  width: 32px;
+                  height: 32px;
+                  @include border-radius(32px);
+                  background: #d9d9d9;
+                  text-align: center;
+                  line-height: 32px;
+                  color: #fff;
+                  font-size: 17px;
+                  text-decoration: none !important;
+                  color: rgba(255, 255, 255, .8);
+                  @include transition();
+                  i {
+                    line-height: 34px;
+                    &.fa-vimeo {
+                      font-size: 14px;
+                    }
+                    &.stm-google-plus {
+                      font-size: 13px;
+                    }
+                  }
+                  &:hover {
+                    background: $stm_secondary_color;
+                    color: #fff;
+                  }
+                  &.social-facebook {
+                    background: #3a5897;
+                  }
+                  &.social-twitter {
+                    background: #00aced;
+                  }
+                  &.social-linkedin {
+                    background: #0077b5;
+                  }
+                  &.social-google-plus {
+                    background: #db4437;
+                  }
+                }
+              }
+            }
+          }
+          .staff_info {
+            position: relative;
+            overflow: hidden;
+            height: 96px;
+            .staff_info_wr {
+              @include transition(all, 0.5s);
+              padding: 25px 30px 10px;
+              .staff_name_position {
+                @include transition(all, 0.3s);
+                opacity: 1;
+              }
+              .staff_phone_email {
+                @include transition(all, 0.3s);
+                opacity: 0;
+              }
+              h5 {
+                margin: 0 0 13px;
+                &:before {
+                  display: none;
+                }
+              }
+              .staff_department {
+                margin: 0 0 30px;
+                font-size: 13px;
+              }
+              .staff_phone {
+                position: relative;
+                padding: 0 0 0 25px;
+                margin: 0 0 20px;
+                &:before {
+                  content: "\e904";
+                  @include theme_icons();
+                  position: absolute;
+                  left: 0;
+                  top: -2px;
+                  color: $stm_secondary_color;
+                  font-size: 17px;
+                }
+              }
+              .staff_email {
+                position: relative;
+                padding: 0 0 0 25px;
+                margin: 0 0 20px;
+                &:before {
+                  content: "\e902";
+                  @include theme_icons();
+                  position: absolute;
+                  left: 0;
+                  top: 2px;
+                  color: $stm_secondary_color;
+                  font-size: 12px;
+                }
+              }
+              .staff_skype {
+                position: relative;
+                padding: 0 0 0 25px;
+                margin: 0 0 20px;
+                &:before {
+                  content: "\e94a";
+                  @include theme_icons();
+                  position: absolute;
+                  left: 0;
+                  top: -1px;
+                  color: $stm_secondary_color;
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

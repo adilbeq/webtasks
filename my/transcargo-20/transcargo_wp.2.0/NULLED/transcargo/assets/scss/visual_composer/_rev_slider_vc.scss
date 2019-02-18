@@ -1,0 +1,84 @@
+.rev_slider_nav{
+  position: relative;
+  display: block;
+  text-align: center;
+  text-decoration: none !important;
+  .icon{
+    margin: -117px 0 0;
+    padding: 0 0 28px;
+    border-bottom: 2px solid transparent;
+    font-size: 89px;
+    height: 117px;
+    color: #fff;
+    display: block;
+    @include transition();
+    i{
+      display: inline-block;
+      vertical-align: middle;
+      &.stm-transport839{
+        font-size: 75px;
+      }
+      &.stm-warehouse{
+        font-size: 79px;
+      }
+    }
+  }
+  .title{
+    display: block;
+    font-size: 18px;
+    padding: 26px 0;
+    color: #fff;
+    font-family: Titillium Web;
+  }
+  &:hover, &.active{
+    .icon{
+      color: $stm_secondary_color;
+      border-bottom-color: #fff;
+    }
+  }
+}
+
+body .hermes .tp-bullet{
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+  @include transition(all, .2s, linear);
+  box-shadow: none;
+  background: none !important;
+  &:after {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    box-shadow: none;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #8a929d;
+    background: #8a929d;
+    padding: 0;
+    @include transition(all, .2s, linear);
+    @include border-radius(50%);
+  }
+  &.selected {
+    padding: 0;
+    &:after {
+      width: 10px;
+      height: 10px;
+      background: transparent;
+      border-color: $stm_secondary_color;
+    }
+  }
+}
+
+.rev_slider >ul >li.overlay:after{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 37, 60, 0.45);
+  z-index: 1;
+}

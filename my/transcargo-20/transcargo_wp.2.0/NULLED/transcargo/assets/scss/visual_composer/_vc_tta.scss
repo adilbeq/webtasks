@@ -1,0 +1,121 @@
+body{
+  .vc_tta.vc_general {
+    &.vc_tta-accordion{
+      &.vc_tta-style-outline{
+        .vc_tta-panel{
+          &:not(:last-child) .vc_tta-panel-heading{
+            margin-bottom: -1px;
+          }
+          &:not(:first-child) .vc_tta-panel-heading{
+            margin-top: -1px;
+          }
+          .vc_tta-panel-heading{
+            @include transition();
+            border-width: 1px;
+            .vc_tta-panel-title{
+              font-size: 18px;
+              line-height: 24px;
+              text-transform: none;
+              font-weight: 400;
+              &:before{
+                display: none;
+              }
+              a{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 13px;
+                padding-bottom: 13px;
+                @include transition();
+              }
+              &.vc_tta-controls-icon-position-right{
+                a{
+                  padding-right: 42px;
+                  .vc_tta-controls-icon.vc_tta-controls-icon-chevron{
+                    right: 14px;
+                    top: 15px;
+                    transform: none;
+                    height: auto;
+                    width: auto;
+                    line-height: 1;
+                    font-size: 16px;
+                    &:before{
+                      content: "\f107";
+                      @include fa();
+                      transition: none;
+                      transform: none;
+                      border: none;
+                      position: relative;
+                      top: auto;
+                      bottom: auto;
+                      left: auto;
+                      right: auto;
+                    }
+                  }
+                }
+              }
+              &.vc_tta-controls-icon-position-left{
+                a{
+                  padding-left: 42px;
+                  .vc_tta-controls-icon.vc_tta-controls-icon-chevron{
+                    left: 14px;
+                    top: 15px;
+                    transform: none;
+                    height: auto;
+                    width: auto;
+                    line-height: 1;
+                    font-size: 16px;
+                    &:before{
+                      content: "\f107";
+                      @include fa();
+                      @include transition();
+                      transform: none;
+                      border: none;
+                      position: relative;
+                      top: auto;
+                      bottom: auto;
+                      left: auto;
+                      right: auto;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .vc_tta-panel-body{
+            border-width: 1px;
+            padding: 20px 30px;
+          }
+        }
+        &.vc_tta-color-theme_style{
+          .vc_tta-panel{
+            &.vc_active{
+              .vc_tta-panel-heading, .vc_tta-panel-heading:hover{
+                border-color: $stm_secondary_color;
+                background-color: $stm_secondary_color;
+                .vc_tta-panel-title>a{
+                  color: #fff;
+                  .vc_tta-controls-icon::before{
+                    border-color: #fff;
+                  }
+                }
+              }
+            }
+            .vc_tta-panel-heading{
+              border-color: #e6e6e6;
+              &:hover{
+                background-color: $stm_secondary_color;
+                border-color: $stm_secondary_color;
+                .vc_tta-panel-title>a{
+                  color: #fff;
+                }
+              }
+              .vc_tta-panel-title a{
+                color: $stm_base_color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.about_vacantion{
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  background: $stm_secondary_color;
+  padding: 32px 30px;
+  margin: 0 0 80px;
+  color: #fff;
+  .info{
+    display: table-cell;
+    line-height: 26px;
+    strong{
+      display: block;
+    }
+  }
+}
+
+.vacancy_bottom{
+  position: relative;
+  margin: 0 0 60px;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  .share_buttons{
+    white-space: nowrap;
+    .addtoany_header{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 15px 0 0;
+      font-size: 11px;
+      line-height: 1;
+    }
+    .addtoany_list{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 -4px;
+      line-height: 1 !important;
+      a{
+        line-height: 1;
+        span{
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.pricing_table {
+  position: relative;
+  margin-bottom: 80px !important;
+  @include transition();
+  .pricing_table_wr{
+    position: relative;
+    overflow: hidden;
+    .header {
+      position: relative;
+      text-align: center;
+      background: $stm_base_color;
+      padding: 30px 20px 24px;
+      overflow: hidden;
+      .sticker {
+        position: absolute;
+        left: -92px;
+        top: 24px;
+        background-color: #7fba00;
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 5px 0;
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+      .title {
+        font-size: 14px;
+        color: $stm_secondary_color;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 0 30px;
+      }
+      .price_wr {
+        position: relative;
+        color: #fff;
+        .prefix {
+          display: inline;
+          font-size: 24px;
+        }
+        .price {
+          display: inline;
+          font-size: 36px;
+          text-transform: uppercase;
+        }
+        .suffix {
+          display: inline;
+          font-size: 13px;
+        }
+      }
+    }
+    .content {
+      position: relative;
+      padding: 36px 30px 46px;
+      border: 1px solid #e6e6e6;
+      border-top: none;
+      margin: 0;
+      @include transition();
+      ul {
+        margin-bottom: 0;
+        li {
+          margin-bottom: 27px;
+          font-size: 13px;
+        }
+      }
+      .buy_now{
+        position: absolute;
+        left: 0;
+        bottom: 35px;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+        @include transition();
+        .button{
+          display: inline-block;
+        }
+      }
+    }
+  }
+  &:hover{
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+  }
+  &.has_link:hover{
+    margin-bottom: 0 !important;
+    transform: translate(0, -30px);
+    .content{
+      padding-bottom: 114px;
+      .buy_now{
+        opacity: 1;
+      }
+    }
+  }
+}

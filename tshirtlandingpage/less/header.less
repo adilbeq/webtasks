@@ -1,0 +1,122 @@
+/******************************          Header          ******************************/
+	.header {
+		.section_container {
+			padding-top: 150px;
+			background: url('../img/593x593.png') right top no-repeat;
+			justify-content: space-between;
+		}
+		h1 {
+			margin-bottom: 20px;
+		}
+		h3 {
+			margin-bottom: 10px;
+		}
+		.right_side {
+			width: 100%;
+			max-width: 539px;
+		}
+		.left_side {
+			width: 100%;
+			max-width: 420px;
+		}
+		.t_shirt_options {
+			margin-top: 80px;
+			margin-bottom: 40px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			.color_box {
+				ul {
+					display: flex;
+					justify-content: space-between;
+					width: 200px;
+					li {
+						width: 35px;
+						height: 35px;
+						border-radius: 20px;
+						border: 4px solid #e4e6ea;
+						&.active {
+							border: 4px solid #ccc;
+						}
+						&.c_black {
+							background: #000;
+						}
+						&.c_grey {
+							background: #a2a2a2;
+						}
+						&.c_orange {
+							background: #ffd200;
+						}
+						&.c_white {
+							background: #fff;
+						}												
+					}
+				}
+			}
+			.quantity {
+				input {
+					padding: 10px;
+					width: 60px;
+					border-radius: 30px;
+					border: 4px solid #e4e6ea;
+					text-align: center;
+				}
+			}
+			.size_box {
+				margin-top: 30px;
+				width: 100%;
+				ul {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					li {
+						cursor: pointer;
+						width: 55px;
+						height: 55px;
+						border-radius: 50px;						
+						border: 4px solid #e4e6ea;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						background: #fff;
+						font-weight: 600;
+						font-size: 14px;
+						&.active {
+							background: #ffd200;
+						}
+					}
+				}
+			}
+			.sub_title {
+				margin-bottom: 10px;
+				display: block;
+				color: #858585;
+				font-size: 16px;
+				font-weight: 300;
+			}
+		}
+
+		@media screen and (max-width: 991px) {
+			background: url('../img/593x593.png') center bottom no-repeat;
+			.section_container {
+				background: none;
+				padding-top: 70px;
+			}	
+			.t_shirt_options {
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			.left_side,
+			.right_side {
+				width: 100%;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+			.tabs_content {
+				margin: 0 auto;
+			}
+			.small {
+				margin-bottom: 40px;
+			}
+		}		
+	}

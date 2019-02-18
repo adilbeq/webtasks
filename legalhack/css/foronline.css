@@ -1,0 +1,23 @@
+.dell-padd{
+	padding: 1em 0 !important;
+}
+.box-q{
+	padding: 5px 10px;
+	border: 2px solid white;
+	background-color: rgba(99, 112, 230, 0.3);
+}
+.but_wrap{
+	margin-top: 10px;
+}
+.but_wrap button{
+	background-color: rgba(219, 215, 96, 0.5);
+}
+.line{
+	width: 100%;
+	border: 2px solid white;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.inputs-wrapper input{
+	font-family: "Times New Roman";
+}

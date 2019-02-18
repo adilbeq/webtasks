@@ -1,0 +1,93 @@
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1;
+  font-family: Open Sans;
+  color: $stm_font_color;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &.boxed_bg_image_pattern {
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+  }
+  &.bg_img_1{
+    background-image: url("assets/images/bg/img_1.jpg");
+  }
+  &.bg_img_2{
+    background-image: url("assets/images/bg/img_2.jpg");
+  }
+  &.bg_img_3{
+    background-image: url("assets/images/bg/img_3.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+  }
+  &.bg_img_4{
+    background-image: url("assets/images/bg/img_4.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+  }
+  &.bg_img_5{
+    background-image: url("assets/images/bg/img_5.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    background-size: auto;
+  }
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+}
+
+#wrapper{
+  position: relative;
+  background: #fff;
+  z-index: 40;
+}
+
+#content{
+  position: relative;
+  z-index: 20;
+}
+
+.wpb_row:last-child{
+  margin-bottom: 100px;
+}
+
+body{
+  .wpb_button, .wpb_column>.vc_column-inner >.wpb_wrapper>:last-child{
+    margin-bottom: 0;
+  }
+  .vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_vc_row>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_vc_row_inner>.vc_row>.vc_vc_column_inner>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_row>.vc_vc_column>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_vc_column_inner>.vc_column_container>.vc_column-inner{
+    padding-top: 0;
+  }
+}
+
+body.boxed_layout{
+  #main{
+    max-width: 1230px;
+    margin: 0 auto;
+    overflow: hidden;
+    @include box-shadow(0, 0, 20px, rgba(0, 0, 0, 0.25));
+  }
+}
+
+#frontend_customizer_button{
+  background: $stm_secondary_color;
+  &:before{
+    border-right-color: $stm_secondary_color;
+  }
+}

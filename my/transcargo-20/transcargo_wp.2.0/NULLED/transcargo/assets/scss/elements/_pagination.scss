@@ -1,0 +1,102 @@
+ul.page-numbers{
+  position: relative;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0 0 100px;
+  li{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    a.page-numbers{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 16px 19px;
+      margin: 0 4px;
+      border: 2px solid transparent;
+      @include border-radius(50px);
+      @include transition();
+      text-decoration: none !important;
+      color: $stm_base_color;
+      &:hover{
+        border-color: $stm_secondary_color;
+        background: $stm_secondary_color;
+        color: #fff;
+      }
+    }
+    span.page-numbers{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 16px 19px;
+      margin: 0 4px;
+      border: 2px solid #d9d9d9;
+      @include border-radius(50px);
+      @include transition();
+    }
+    a.next{
+      padding-left: 22px;
+      padding-right: 22px;
+      border-color: $stm_secondary_color;
+      i{
+        margin: 0 0 0 12px;
+      }
+    }
+    a.prev{
+      padding-left: 22px;
+      padding-right: 22px;
+      border-color: $stm_secondary_color;
+      i{
+        margin: 0 12px 0 0;
+      }
+    }
+  }
+}
+
+.with_sidebar + .page-numbers{
+  text-align: left;
+  span.page-numbers, a.page-numbers{
+    margin-left: 0;
+  }
+}
+
+.page-links{
+  position: relative;
+  padding: 0;
+  text-align: left;
+  margin: 0 0 100px;
+  label{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    color: $stm_base_color;
+  }
+  a{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 19px;
+    margin: 0 4px;
+    border: 2px solid transparent;
+    @include border-radius(50px);
+    @include transition();
+    text-decoration: none !important;
+    color: $stm_base_color;
+    &:hover{
+      border-color: $stm_secondary_color;
+      background: $stm_secondary_color;
+      color: #fff;
+    }
+  }
+  & > span{
+    display: inline-block;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 16px 19px;
+    margin: 0 4px;
+    border: 2px solid #d9d9d9;
+    @include border-radius(50px);
+    @include transition();
+  }
+}

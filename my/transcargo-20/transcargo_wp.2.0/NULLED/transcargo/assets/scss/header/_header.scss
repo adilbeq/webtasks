@@ -1,0 +1,41 @@
+#header {
+  position: relative;
+  background: $stm_base_color;
+  background-position: 50% 0;
+  color: #fff;
+  z-index: 50;
+  margin: 0 0 37px;
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($stm_base_color, .35);
+  }
+  body.transparent_header & {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: none;
+    &:before{
+      display: none;
+    }
+  }
+  .page_title{
+    position: relative;
+    h1{
+      color: inherit;
+      margin: 0;
+      padding: 57px 0;
+      &:before{
+        display: none;
+      }
+    }
+  }
+}
+
+@import "top_bar";
+@import "top_nav";

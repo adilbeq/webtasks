@@ -1,0 +1,27 @@
+.stm_counter{
+  position: relative;
+  color: $stm_base_color;
+  .icon{
+    color: $stm_secondary_color;
+    font-size: 66px;
+    width: 90px;
+    float: left;
+    svg{
+      stroke: $stm_secondary_color;
+    }
+  }
+  .text{
+    overflow: hidden;
+    padding: 11px 0 0;
+    .value{
+      font-size: 42px;
+      font-weight: 300;
+      margin: 0 0 11px;
+      font-family: Titillium Web;
+    }
+    .title{
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
+}

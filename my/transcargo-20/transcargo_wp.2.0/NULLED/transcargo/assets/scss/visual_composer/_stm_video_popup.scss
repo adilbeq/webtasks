@@ -1,0 +1,41 @@
+.stm_video_popup{
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .fancy_video{
+    position: relative;
+    display: block;
+    &:before{
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 86px;
+      height: 86px;
+      background: $stm_secondary_color;
+      z-index: 10;
+      @include border-radius(50%);
+      border: 3px solid #fff;
+      margin: -43px 0 0 -43px;
+      @include transition();
+    }
+    &:hover{
+      &:before{
+        background: $stm_base_color;
+      }
+    }
+    &:after{
+      content: '\e900';
+      position: absolute;
+      left: 50%;
+      margin: -12px 0 0 -7px;
+      top: 50%;
+      @include theme_icons();
+      font-size: 24px;
+      color: #fff;
+      z-index: 20;
+    }
+  }
+}

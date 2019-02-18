@@ -1,0 +1,19 @@
+.breadcrumbs{
+  position: relative;
+  margin: 0 0 78px;
+  vertical-align: middle;
+  font-size: 13px;
+  .container{
+    & > span{
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 5px 0;
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+    & a{
+      color: $stm_base_color;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+/*!
+Theme Name: Transcargo
+Theme URI: http://logistics.stylemixthemes.com/
+Author: StylemixThemes
+Author URI: http://stylemixthemes.com/
+Description: Transcargo is the only best WordPress theme for transportation and logistics business.  Using Transcargo you can easily create a modern website and start promoting your services.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: transcargo
+Tags: blue, red, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# WordPress Core
+# Layout
+# Header
+# Visual Composer
+# Typography
+# Elements
+# Page 404
+# Responsive
+
+--------------------------------------------------------------*/
+@import "assets/scss/site/base_variables";
+@import "assets/scss/site/mixins";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "assets/scss/site/normalize";
+
+/*--------------------------------------------------------------
+# WordPress Core
+--------------------------------------------------------------*/
+@import "assets/scss/site/wordpress_core";
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+@import "assets/scss/site/layout";
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+@import "assets/scss/header/header";
+
+/*--------------------------------------------------------------
+# Visual Composer
+--------------------------------------------------------------*/
+@import "assets/scss/visual_composer/visual_composer";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "assets/scss/site/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "assets/scss/elements/elements";
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+@import "assets/scss/footer/footer";
+
+/*--------------------------------------------------------------
+# Extra Classes
+--------------------------------------------------------------*/
+@import "assets/scss/site/extra_classes";
+
+/*--------------------------------------------------------------
+# 404 Page
+--------------------------------------------------------------*/
+@import "assets/scss/site/page_404";
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+@import "assets/scss/site/responsive";

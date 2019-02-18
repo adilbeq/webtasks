@@ -1,0 +1,35 @@
+/******************************          Headings          ******************************/
+	.heading {
+		padding: 0 0 70px 0;
+		width: 100%;
+		display: block;
+		text-align: center;
+		position: relative;
+		h1 {
+			font-family: 'Kaushan Script', cursive;
+			width: 100%;
+			color: #000;
+			margin-bottom: 5px;
+			font-weight: inherit;
+			z-index: 2;
+			position: relative;
+		}
+		&:before {
+			content:'';
+			position: absolute;
+			top: 30px;
+			left: 50%;
+			transform: translate(-50%,0);
+			background: url('../img/396x58.svg') center center no-repeat;
+			width: 100%;
+			max-width: 396px;
+			height: 58px;
+			z-index: 1;
+		}
+		@media screen and (max-width: 991px) {
+			text-align: center;
+			p {
+				max-width: 100%;
+			}
+		}				
+	}	

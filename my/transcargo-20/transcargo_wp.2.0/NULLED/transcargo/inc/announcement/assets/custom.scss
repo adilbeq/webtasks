@@ -1,0 +1,57 @@
+#pearl_dashboard_announcement {
+    .inside {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+        max-height: 300px;
+        overflow-y: auto;
+        #pearl-announcement {
+            font-size: 15px;
+            line-height: 22px;
+        }
+    }
+    h2.hndle {
+        background: #23282d;
+        color: #fff;
+        border: 0;
+    }
+    .handlediv {
+        color: #fff;
+        height: 35px;
+    }
+}
+
+#pearl-changelog {
+
+    h4 {
+        font-weight: 700;
+        span {
+            margin-top: 5px;
+            display: block;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 95%;
+        }
+    }
+
+    .pearl_changelog_version {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            position: relative;
+            padding-left: 18px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 9px;
+                left: 0;
+                display: block;
+                width: 10px;
+                height: 1px;
+                background-color: #4CBEB5;
+            }
+        }
+    }
+}

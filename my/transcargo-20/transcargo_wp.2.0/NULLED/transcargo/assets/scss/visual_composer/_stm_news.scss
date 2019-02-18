@@ -1,0 +1,116 @@
+.vc_news{
+  position: relative;
+  .vc_news_footer{
+    position: relative;
+    @include cleaner();
+    .button{
+      float: right;
+    }
+  }
+  .news_list{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+    li{
+      margin: 0 0 30px;
+      @include cleaner();
+      background: #fff;
+      border-radius: 1px;
+      @include transition(all, 0.5s);
+      border: 1px solid #e5e5e5;
+      &:hover{
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+      .news_thumbnail{
+        position: relative;
+        float: left;
+        margin: -1px 0 -1px -1px;
+        .date{
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 75px;
+          height: 75px;
+          background: $stm_secondary_color;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0 0;
+          font-family: Titillium Web;
+          .day{
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 18px;
+            margin: 0 0 5px;
+          }
+          .month{
+            font-size: 16px;
+            text-transform: lowercase;
+          }
+        }
+      }
+      .news_content{
+        overflow: hidden;
+        padding: 33px 37px 25px;
+        h4{
+          line-height: 30px;
+          text-transform: none;
+          font-weight: 400;
+          margin-bottom: 16px;
+          &:before{
+            display: none;
+          }
+          a{
+            color: $stm_base_color;
+            text-decoration: none !important;
+            @include transition();
+            &:hover{
+              color: $stm_secondary_color;
+            }
+          }
+        }
+        p{
+          font-size: 13px;
+          line-height: 22px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .owl-dots {
+    position: relative;
+    margin: 15px 0 30px;
+    float: left;
+    @include cleaner();
+    .owl-dot {
+      float: left;
+      width: 10px;
+      height: 10px;
+      padding: 3px;
+      margin: 0 15px 0 0;
+      cursor: pointer;
+      @include transition(all, .2s, linear);
+      span {
+        display: block;
+        width: 4px;
+        height: 4px;
+        border: 1px solid #cccccc;
+        background: #cccccc;
+        padding: 0;
+        @include transition(all, .2s, linear);
+        @include border-radius(50%);
+      }
+      &.active {
+        padding: 0;
+        span {
+          width: 10px;
+          height: 10px;
+          background: transparent;
+          border-color: $stm_secondary_color;
+        }
+      }
+    }
+  }
+}

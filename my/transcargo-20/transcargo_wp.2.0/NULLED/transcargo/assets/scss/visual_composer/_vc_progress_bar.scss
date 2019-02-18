@@ -1,0 +1,38 @@
+.vc_progress_bar {
+  .vc_general.vc_single_bar {
+    background: none;
+    box-shadow: none;
+    @include border-radius(6px);
+    margin-bottom: 45px;
+    .vc_label{
+      color: $stm_base_color !important;
+      text-shadow: none !important;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0 0 8px;
+      @include cleaner();
+      em{
+        font-style: normal;
+        float: left;
+      }
+      span{
+        float: right;
+        font-weight: 500;
+        font-size: 12px;
+      }
+    }
+    .vc_bar_wr{
+      position: relative;
+      background-color: #e6e6e6;
+      height: 6px;
+      @include border-radius(6px);
+    }
+    &.vc_progress-bar-color-theme_style{
+      .vc_bar{
+        background-color: $stm_secondary_color;
+      }
+    }
+  }
+}

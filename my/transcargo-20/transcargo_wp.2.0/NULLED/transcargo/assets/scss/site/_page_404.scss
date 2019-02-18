@@ -1,0 +1,14 @@
+.page_404{
+  margin: 0 0 160px;
+  .container{
+    position: relative;
+    .image_404{
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 529px;
+      height: 344px;
+      background: url("assets/images/page_404.jpg") no-repeat 0 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/******************************          Tabs          ******************************/
+	.tabs_nav {
+	    display: flex;
+	    justify-content: space-between;
+	    .active_tab-title {
+	        display: flex;
+	        justify-content: space-between;
+	        cursor: pointer;
+	        .hide_tabs {
+	            display: none;
+	        }
+	    }    
+	    .tab_btn {
+	        cursor: pointer;
+	    }
+	}
+	.tab_content {
+	    display: none;
+	    &.content_active-tab {
+	        display: flex!important;
+	    }
+	} 

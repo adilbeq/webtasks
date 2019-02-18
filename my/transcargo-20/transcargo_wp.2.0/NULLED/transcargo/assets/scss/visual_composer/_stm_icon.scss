@@ -1,0 +1,43 @@
+.stm_icon{
+  position: relative;
+  color: #fff;
+  .icon{
+    font-size: 71px;
+    margin: 0 0 19px;
+    color: $stm_secondary_color;
+    svg{
+      stroke: $stm_secondary_color;
+    }
+  }
+  .title{
+    font-size: 14px;
+    font-family: Titillium Web;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 500;
+    color: $stm_base_color;
+  }
+  .text{
+    padding: 24px 0 0;
+  }
+  &.center{
+    text-align: center;
+  }
+  &.right{
+    text-align: right;
+  }
+  &.icon_position_left{
+    @include cleaner();
+    .icon{
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .icon_text{
+      display: table-cell;
+      vertical-align: middle;
+      .title{
+        font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+body{
+  .vc_message_box{
+    font-size: 14px;
+    padding: 11px 20px 11px 56px;
+    margin: 0 0 20px;
+    &.vc_message_box-solid{
+      &.vc_color-info{
+        .vc_message_box-icon{
+          color: #00aaff;
+        }
+        background-color: #cceeff;
+        color: #00aaff;
+      }
+      &.vc_color-success{
+        .vc_message_box-icon{
+          color: #61a600;
+        }
+        background-color: #c9f7b2;
+        color: #61a600;
+      }
+      &.vc_color-warning{
+        .vc_message_box-icon{
+          color: #ff9900;
+        }
+        background-color: #fff2b2;
+        color: #ff9900;
+      }
+      &.vc_color-danger{
+        .vc_message_box-icon{
+          color: #ff0000;
+        }
+        background-color: #ffd9d9;
+        color: #ff0000;
+      }
+    }
+  }
+}

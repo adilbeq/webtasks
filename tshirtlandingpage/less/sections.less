@@ -1,0 +1,95 @@
+/******************************          Sections          ******************************/
+	section {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;	
+		padding: 50px 70px;
+		.section_container {
+			width: 100%;
+			max-width: 1180px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+			@media screen and (max-width: 991px) {
+				flex-direction: column;
+				text-align: center;
+			}			
+		}
+		.left_side,
+		.right_side {
+			display: flex;
+			flex-direction: column;
+			flex: 0 0 50%;
+		}
+		.content {
+			padding: 50px;
+		}
+		.left_content {
+				padding: 50px;
+				padding-left: 0;
+		}
+		.right_content {
+				padding: 50px;
+				padding-right: 0;
+		}
+		@media screen and (max-width: 991px) {
+			padding: 40px 20px;
+			img {
+				width: 100%;
+			}
+			.left_side {
+				margin-bottom: 30px;
+			}
+			.left_side,
+			.right_side {
+				display: flex;
+				flex-direction: column;
+				flex: 0 0 auto;
+			}			
+			.content,
+			.left_content,
+			.right_content {
+				padding: 20px;
+			}
+		}		
+	}
+	.relative_image_box {
+		position: relative;
+		.ab_image {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translate(-50%, 0);
+			img {
+				width: 590px;
+			}
+		}
+		.tab_ab_image {
+			width: 230px;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translate(0, -50%);
+			img {
+				width: 230px;
+			}			
+		}
+		@media screen and (max-width: 991px) {
+			.ab_image {
+				width: 100%;
+				position: relative;
+				top: 0;
+				left: 50%;
+				transform: translate(-50%, 0);
+				img {
+					width: 590px;
+					margin: 0 auto;
+				}
+			}		
+			.tab_ab_image {
+				display: none;			
+			}
+		}	
+	}	

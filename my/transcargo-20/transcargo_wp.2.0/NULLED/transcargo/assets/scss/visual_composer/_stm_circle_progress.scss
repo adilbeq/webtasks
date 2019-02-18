@@ -1,0 +1,33 @@
+.circle_progress_wr{
+  text-align: center;
+  .circle_progress{
+    position: relative;
+    margin: 0 auto;
+    display: table;
+    & > div{
+      display: table-cell;
+      vertical-align: middle;
+      canvas{
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .info{
+        display: inline-block;
+        vertical-align: middle;
+        .value{
+          font-size: 36px;
+          text-transform: uppercase;
+          color: $stm_base_color;
+          text-align: center;
+          margin: 0 0 5px;
+        }
+        .title{
+          font-size: 13px;
+          color: #808080;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

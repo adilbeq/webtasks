@@ -1,0 +1,116 @@
+.blog_list{
+  position: relative;
+  margin: 0 0 30px;
+  @include cleaner();
+  & > article{
+    margin: 0 0 30px;
+    &.sticky{
+      .post_wr{
+        border-color: $stm_secondary_color;
+      }
+    }
+    .post_wr{
+      box-shadow: none;
+      border-radius: 1px;
+      border: 1px solid #e6e6e6;
+      @include transition(all, 0.5s);
+      @include cleaner();
+      -webkit-transform: translateZ(0);
+      &:hover{
+        box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.07);
+        border-color: transparent;
+      }
+      .post_thumbnail {
+        max-width: 350px;
+        position: relative;
+        margin: -1px 0 -1px -1px;
+        float: left;
+        img{
+          max-width: 100%;
+          height: auto;
+        }
+        .date {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 75px;
+          height: 75px;
+          background: $stm_secondary_color;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0 0;
+          .day {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 18px;
+            margin: 0 0 5px;
+          }
+        }
+      }
+      .content {
+        overflow: hidden;
+        border-top: none;
+        padding: 26px 30px;
+        font-size: 13px;
+        h5 {
+          line-height: 24px;
+          margin: 0 0 12px;
+          a {
+            text-decoration: none !important;
+            color: $stm_base_color;
+            @include transition();
+            &:hover {
+              color: $stm_secondary_color;
+            }
+          }
+          &:before {
+            display: none;
+          }
+        }
+        .categories{
+          font-size: 13px;
+          margin: 0 0 20px;
+          @include cleaner();
+          span{
+            float: left;
+            margin: 0 5px 0 0;
+          }
+          ul.post_categories{
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li{
+              display: inline-block;
+              vertical-align: baseline;
+              margin: 0 5px 0 0;
+              line-height: 15px;
+              a{
+                &:after{
+                  content: ",";
+                }
+              }
+              &:last-child{
+                a{
+                  &:after{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .post_excerpt{
+          line-height: 24px;
+          p {
+            line-height: 24px;
+            margin: 0 0 20px;
+            &:last-child{
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

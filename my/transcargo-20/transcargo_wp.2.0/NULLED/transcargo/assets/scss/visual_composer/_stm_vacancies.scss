@@ -1,0 +1,60 @@
+.vacancy_table_wr {
+  position: relative;
+  margin: 0 0 45px;
+  .vacancy_table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    thead th {
+      position: relative;
+      background: $stm_base_color;
+      color: #fff;
+      font-size: 14px;
+      padding: 18px 20px;
+      cursor: pointer;
+      font-weight: 700;
+      text-transform: uppercase;
+      &.headerSortDown {
+        background: $stm_secondary_color;
+        color: #fff;
+        &:after {
+          content: "\f107";
+          color: #fff;
+        }
+      }
+      &.headerSortUp {
+        background: $stm_secondary_color;
+        color: #fff;
+        &:after {
+          content: "\f106";
+          color: #fff;
+        }
+      }
+      &:after {
+        content: "\f107";
+        @include fa();
+        font-size: 16px;
+        color: #B2B2B2;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        margin-top: -8px;
+      }
+    }
+    tbody td {
+      font-size: 14px;
+      line-height: 24px;
+      color: #808080;
+      padding: 18px 20px;
+      border-bottom: 1px solid #e5e5e5;
+      a {
+        color: #808080;
+        @include transition();
+        &:hover {
+          text-decoration: none;
+          color: $stm_secondary_color;
+        }
+      }
+    }
+  }
+}

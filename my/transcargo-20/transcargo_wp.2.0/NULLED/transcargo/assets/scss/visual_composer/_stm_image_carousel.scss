@@ -1,0 +1,33 @@
+.vc_image_carousel_wr{
+  margin: 0 -40px;
+  .vc_image_carousel{
+    position: relative;
+    &.owl-carousel {
+      .owl-item{
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        .item{
+          padding: 0 40px;
+        }
+      }
+    }
+  }
+  &.grayscale{
+    .owl-item{
+      img{
+        @include transition();
+        -webkit-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        filter: grayscale(1);
+        opacity: 0.6;
+        &:hover{
+          -webkit-filter: grayscale(0);
+          -moz-filter: grayscale(0);
+          filter: grayscale(0);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: transcargo\n"
+"POT-Creation-Date: 2015-12-19 16:59+0500\n"
+"PO-Revision-Date: 2015-12-19 16:59+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"themes\n"
+"X-Poedit-SearchPath-0: transcargo\n"
+
+#: transcargo/404.php:6
+msgid "Error 404: <br/>Page Not Found"
+msgstr ""
+
+#: transcargo/404.php:7
+msgid "The page you were looking for is not here."
+msgstr ""
+
+#: transcargo/404.php:8
+msgid "Home Page"
+msgstr ""
+
+#: transcargo/comments.php:10 transcargo/inc/vc-config.php:1279
+msgid "Comments"
+msgstr ""
+
+#: transcargo/comments.php:17
+msgid "Reply"
+msgstr ""
+
+#: transcargo/comments.php:28
+msgid "Comment navigation"
+msgstr ""
+
+#: transcargo/comments.php:31
+msgid "Older Comments"
+msgstr ""
+
+#: transcargo/comments.php:35
+msgid "Newer Comments"
+msgstr ""
+
+#: transcargo/comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: transcargo/footer.php:21 transcargo/inc/customizer/registration.php:299
+msgid ""
+"Everyday is a new day for us and we work really hard to satisfy our customer "
+"everywhere."
+msgstr ""
+
+#: transcargo/footer.php:54
+msgid ""
+"Copyright &copy; 2012-2015 Logistics Theme by <a href='http://stylemixthemes."
+"com/' target='_blank'>Stylemix Themes</a>. All rights reserved"
+msgstr ""
+
+#: transcargo/functions.php:93
+msgid "Header Menu"
+msgstr ""
+
+#: transcargo/functions.php:94
+msgid "Footer Menu"
+msgstr ""
+
+#: transcargo/functions.php:109
+msgid "Right Sidebar"
+msgstr ""
+
+#: transcargo/functions.php:118
+msgid "Left Sidebar"
+msgstr ""
+
+#: transcargo/functions.php:131
+msgid "Footer "
+msgstr ""
+
+#: transcargo/header.php:105 transcargo/header.php:127
+#: transcargo/inc/customizer/registration.php:236
+msgid ""
+"For more detailed tracking and status information, sign in or contact your "
+"local BestLogistic representative for access."
+msgstr ""
+
+#: transcargo/header.php:107
+msgid "Enter Reference number"
+msgstr ""
+
+#: transcargo/index.php:17
+msgid "Need a new search?"
+msgstr ""
+
+#: transcargo/index.php:18
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr ""
+
+#: transcargo/index.php:41
+msgid "Prev"
+msgstr ""
+
+#: transcargo/index.php:42
+msgid "Next"
+msgstr ""
+
+#: transcargo/searchform.php:2
+msgid "Search..."
+msgstr ""
+
+#: transcargo/inc/extras.php:206
+msgid "Search Results"
+msgstr ""
+
+#: transcargo/inc/extras.php:211
+msgid "Page not found"
+msgstr ""
+
+#: transcargo/inc/extras.php:419
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: transcargo/inc/extras.php:424
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: transcargo/inc/extras.php:425
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: transcargo/inc/extras.php:431
+msgid "Edit"
+msgstr ""
+
+#: transcargo/inc/extras.php:481 transcargo/inc/extras.php:491
+msgid "Post Comment"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:5
+#: transcargo/inc/customizer/registration.php:632
+msgid "Service"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:6
+#: transcargo/inc/customizer/registration.php:626
+#: transcargo/inc/customizer/registration.php:637
+msgid "Services"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:12
+#: transcargo/inc/customizer/registration.php:659
+msgid "Testimonial"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:13 transcargo/inc/vc-config.php:578
+#: transcargo/inc/customizer/registration.php:653
+#: transcargo/inc/customizer/registration.php:664
+msgid "Testimonials"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:21
+#: transcargo/inc/customizer/registration.php:594
+msgid "VC Sidebar"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:22
+#: transcargo/inc/customizer/registration.php:578
+msgid "VC Sidebars"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:30
+#: transcargo/inc/customizer/registration.php:686
+msgid "Vacancy"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:31 transcargo/inc/vc-config.php:1422
+#: transcargo/inc/customizer/registration.php:680
+#: transcargo/inc/customizer/registration.php:691
+msgid "Vacancies"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:37
+#: transcargo/inc/post_types-config.php:38
+#: transcargo/inc/customizer/registration.php:707
+#: transcargo/inc/customizer/registration.php:713
+#: transcargo/inc/customizer/registration.php:718
+msgid "Staff"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:46 transcargo/inc/vc-config.php:452
+msgid "Image"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:47 transcargo/inc/vc-config.php:1478
+msgid "Gallery"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:83
+#: transcargo/inc/post_types-config.php:84
+msgid "Categories"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:89
+#: transcargo/inc/post_types-config.php:143
+#: transcargo/inc/post_types-config.php:226
+msgid "Page Setup"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:92
+#: transcargo/inc/post_types-config.php:146
+#: transcargo/inc/post_types-config.php:232
+msgid "Header Options"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:96
+#: transcargo/inc/post_types-config.php:150
+#: transcargo/inc/post_types-config.php:236
+#: transcargo/inc/customizer/registration.php:239
+#: transcargo/partials/frontend_customizer.php:16
+msgid "Header Style"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:99
+#: transcargo/inc/post_types-config.php:153
+#: transcargo/inc/post_types-config.php:239
+#: transcargo/inc/customizer/registration.php:116
+msgid "Default"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:100
+#: transcargo/inc/post_types-config.php:154
+#: transcargo/inc/post_types-config.php:240 transcargo/inc/vc-config.php:594
+#: transcargo/inc/customizer/registration.php:243
+#: transcargo/partials/frontend_customizer.php:19
+msgid "Style 1"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:101
+#: transcargo/inc/post_types-config.php:155
+#: transcargo/inc/post_types-config.php:241 transcargo/inc/vc-config.php:595
+#: transcargo/inc/customizer/registration.php:244
+#: transcargo/partials/frontend_customizer.php:20
+msgid "Style 2"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:102
+#: transcargo/inc/post_types-config.php:156
+#: transcargo/inc/post_types-config.php:242
+#: transcargo/inc/customizer/registration.php:245
+#: transcargo/partials/frontend_customizer.php:21
+msgid "Style 3"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:103
+#: transcargo/inc/post_types-config.php:157
+#: transcargo/inc/post_types-config.php:243
+#: transcargo/inc/customizer/registration.php:246
+#: transcargo/partials/frontend_customizer.php:22
+msgid "Style 4"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:107
+#: transcargo/inc/post_types-config.php:161
+#: transcargo/inc/post_types-config.php:247
+msgid "Transparent Header"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:111
+#: transcargo/inc/post_types-config.php:165
+#: transcargo/inc/post_types-config.php:251 transcargo/inc/vc-config.php:867
+msgid "Title Color"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:115
+#: transcargo/inc/post_types-config.php:169
+#: transcargo/inc/post_types-config.php:220
+#: transcargo/inc/post_types-config.php:255
+#: transcargo/inc/customizer/registration.php:147
+#: transcargo/partials/frontend_customizer.php:45
+msgid "Background Image"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:119
+#: transcargo/inc/post_types-config.php:173
+#: transcargo/inc/post_types-config.php:259
+msgid "Background Position"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:123
+#: transcargo/inc/post_types-config.php:177
+#: transcargo/inc/post_types-config.php:263
+msgid "Background Size"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:127
+#: transcargo/inc/post_types-config.php:181
+#: transcargo/inc/post_types-config.php:267
+msgid "Background Repeat"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:130
+#: transcargo/inc/post_types-config.php:184
+#: transcargo/inc/post_types-config.php:270
+msgid "Repeat"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:131
+#: transcargo/inc/post_types-config.php:185
+#: transcargo/inc/post_types-config.php:271
+msgid "No Repeat"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:132
+#: transcargo/inc/post_types-config.php:186
+#: transcargo/inc/post_types-config.php:272
+msgid "Repeat-X"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:133
+#: transcargo/inc/post_types-config.php:187
+#: transcargo/inc/post_types-config.php:273
+msgid "Repeat-Y"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:137
+#: transcargo/inc/post_types-config.php:191
+#: transcargo/inc/post_types-config.php:277
+msgid "Disable Breadcrumbs"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:195
+msgid "Content Options"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:199
+msgid "Disable Post Details"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:203
+msgid "Disable Tags"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:207
+msgid "Disable Author Info"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:213
+#: transcargo/inc/post_types-config.php:283
+#: transcargo/inc/post_types-config.php:308
+msgid "Information"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:216
+msgid "Position"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:286
+#: transcargo/inc/post_types-config.php:311
+#: transcargo/vc_templates/stm_vacancies.php:21
+msgid "Department"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:290
+#: transcargo/vc_templates/stm_vacancies.php:20
+msgid "Location"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:294
+msgid "Education"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:298
+msgid "Compensation"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:302
+msgid "Contact Us Link"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:315 transcargo/inc/vc-config.php:1150
+msgid "Phone"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:319
+#: transcargo/inc/customizer/registration.php:21
+msgid "Skype"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:323 transcargo/inc/vc-config.php:1155
+#: transcargo/inc/customizer/registration.php:196
+msgid "Email"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:327
+#: transcargo/inc/customizer/registration.php:4
+msgid "Facebook"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:331
+#: transcargo/inc/customizer/registration.php:5
+msgid "Twitter"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:335
+#: transcargo/inc/customizer/registration.php:7
+msgid "Google+"
+msgstr ""
+
+#: transcargo/inc/post_types-config.php:339
+#: transcargo/inc/customizer/registration.php:9
+msgid "Linkedin"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:51 transcargo/inc/vc-config.php:82
+#: transcargo/inc/vc-config.php:131 transcargo/inc/vc-config.php:173
+#: transcargo/inc/vc-config.php:193
+msgid "Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:53
+msgid "Select button color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:56
+msgid "Theme Style 1"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:57
+msgid "Theme Style 2"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:58
+msgid "Theme Style 3"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:59 transcargo/inc/vc-config.php:135
+#: transcargo/inc/vc-config.php:177 transcargo/inc/vc-config.php:197
+msgid "Classic Grey"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:60 transcargo/inc/vc-config.php:136
+#: transcargo/inc/vc-config.php:178 transcargo/inc/vc-config.php:198
+msgid "Classic Blue"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:61 transcargo/inc/vc-config.php:137
+#: transcargo/inc/vc-config.php:179 transcargo/inc/vc-config.php:199
+msgid "Classic Turquoise"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:62 transcargo/inc/vc-config.php:138
+#: transcargo/inc/vc-config.php:180 transcargo/inc/vc-config.php:200
+msgid "Classic Green"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:63 transcargo/inc/vc-config.php:139
+#: transcargo/inc/vc-config.php:181 transcargo/inc/vc-config.php:201
+msgid "Classic Orange"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:64 transcargo/inc/vc-config.php:140
+#: transcargo/inc/vc-config.php:182 transcargo/inc/vc-config.php:202
+msgid "Classic Red"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:65 transcargo/inc/vc-config.php:141
+#: transcargo/inc/vc-config.php:183 transcargo/inc/vc-config.php:203
+msgid "Classic Black"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:79 transcargo/inc/vc-config.php:134
+#: transcargo/inc/vc-config.php:176 transcargo/inc/vc-config.php:196
+msgid "Theme Style"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:83
+msgid "Select accordion color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:91
+msgid "Height (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:97
+msgid "Values"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:99
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:102
+msgid "Development"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:106
+msgid "Design"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:110
+msgid "Marketing"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:117
+msgid "Label"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:119
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:124
+msgid "Value"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:126
+msgid "Enter value of bar."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:143 transcargo/inc/vc-config.php:185
+#: transcargo/inc/vc-config.php:205
+msgid "Custom Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:145 transcargo/inc/vc-config.php:207
+msgid "Select single bar background color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:151
+msgid "Custom color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:153
+msgid "Select custom single bar background color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:161
+msgid "Custom text color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:163
+msgid "Select custom single bar text color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:187
+msgid "Select bar background color."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:235
+msgid "No sliders found"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:239
+msgid "Revolution Slider Navigation"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:242 transcargo/inc/vc-config.php:291
+#: transcargo/inc/vc-config.php:398 transcargo/inc/vc-config.php:437
+#: transcargo/inc/vc-config.php:475 transcargo/inc/vc-config.php:581
+#: transcargo/inc/vc-config.php:698 transcargo/inc/vc-config.php:733
+#: transcargo/inc/vc-config.php:890 transcargo/inc/vc-config.php:996
+#: transcargo/inc/vc-config.php:1088 transcargo/inc/vc-config.php:1135
+#: transcargo/inc/vc-config.php:1222 transcargo/inc/vc-config.php:1294
+#: transcargo/inc/vc-config.php:1360 transcargo/inc/vc-config.php:1424
+#: transcargo/inc/vc-config.php:1438 transcargo/inc/vc-config.php:1480
+#: transcargo/inc/vc-config.php:1514
+msgid "STM"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:246
+msgid "Revolution Slider"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:250
+msgid "Select your Revolution Slider."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:254 transcargo/inc/vc-config.php:516
+#: transcargo/inc/vc-config.php:518 transcargo/inc/vc-config.php:526
+#: transcargo/inc/vc-config.php:528 transcargo/inc/vc-config.php:541
+#: transcargo/inc/vc-config.php:548 transcargo/inc/vc-config.php:555
+#: transcargo/inc/vc-config.php:566 transcargo/inc/vc-config.php:730
+#: transcargo/inc/vc-config.php:742 transcargo/inc/vc-config.php:752
+#: transcargo/inc/vc-config.php:756 transcargo/inc/vc-config.php:758
+#: transcargo/inc/vc-config.php:766 transcargo/inc/vc-config.php:768
+#: transcargo/inc/vc-config.php:782 transcargo/inc/vc-config.php:793
+#: transcargo/inc/vc-config.php:800 transcargo/inc/vc-config.php:811
+#: transcargo/inc/vc-config.php:863
+#: transcargo/inc/customizer/registration.php:645
+#: transcargo/inc/customizer/registration.php:672
+#: transcargo/inc/customizer/registration.php:699
+#: transcargo/inc/customizer/registration.php:726
+msgid "Icon"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:259 transcargo/inc/vc-config.php:563
+#: transcargo/inc/vc-config.php:790
+msgid "Icon Height (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:264 transcargo/inc/vc-config.php:441
+#: transcargo/inc/vc-config.php:479 transcargo/inc/vc-config.php:702
+#: transcargo/inc/vc-config.php:819 transcargo/inc/vc-config.php:1139
+#: transcargo/inc/vc-config.php:1298 transcargo/inc/vc-config.php:1364
+#: transcargo/inc/customizer/registration.php:630
+#: transcargo/inc/customizer/registration.php:657
+#: transcargo/inc/customizer/registration.php:684
+#: transcargo/inc/customizer/registration.php:711
+msgid "Title"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:270
+msgid "Go To Slide (int)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:279 transcargo/vc_templates/stm_gallery.php:28
+msgid "All"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:288
+msgid "Services Carousel"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:295 transcargo/inc/vc-config.php:826
+msgid "Text"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:300 transcargo/inc/vc-config.php:402
+msgid "Number Posts"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:306 transcargo/inc/vc-config.php:606
+#: transcargo/inc/vc-config.php:914 transcargo/inc/vc-config.php:1026
+msgid "Slider autoplay"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:308 transcargo/inc/vc-config.php:608
+#: transcargo/inc/vc-config.php:916 transcargo/inc/vc-config.php:1028
+msgid "Enable autoplay mode."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:310 transcargo/inc/vc-config.php:332
+#: transcargo/inc/vc-config.php:342 transcargo/inc/vc-config.php:505
+#: transcargo/inc/vc-config.php:610 transcargo/inc/vc-config.php:632
+#: transcargo/inc/vc-config.php:642 transcargo/inc/vc-config.php:740
+#: transcargo/inc/vc-config.php:902 transcargo/inc/vc-config.php:918
+#: transcargo/inc/vc-config.php:940 transcargo/inc/vc-config.php:1008
+#: transcargo/inc/vc-config.php:1030 transcargo/inc/vc-config.php:1052
+#: transcargo/inc/vc-config.php:1068 transcargo/inc/vc-config.php:1199
+#: transcargo/inc/vc-config.php:1307
+msgid "Yes"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:312 transcargo/inc/vc-config.php:324
+#: transcargo/inc/vc-config.php:334 transcargo/inc/vc-config.php:344
+#: transcargo/inc/vc-config.php:351 transcargo/inc/vc-config.php:359
+#: transcargo/inc/vc-config.php:367 transcargo/inc/vc-config.php:375
+#: transcargo/inc/vc-config.php:383 transcargo/inc/vc-config.php:612
+#: transcargo/inc/vc-config.php:624 transcargo/inc/vc-config.php:634
+#: transcargo/inc/vc-config.php:644 transcargo/inc/vc-config.php:651
+#: transcargo/inc/vc-config.php:659 transcargo/inc/vc-config.php:667
+#: transcargo/inc/vc-config.php:675 transcargo/inc/vc-config.php:683
+#: transcargo/inc/vc-config.php:920 transcargo/inc/vc-config.php:932
+#: transcargo/inc/vc-config.php:942 transcargo/inc/vc-config.php:949
+#: transcargo/inc/vc-config.php:957 transcargo/inc/vc-config.php:965
+#: transcargo/inc/vc-config.php:973 transcargo/inc/vc-config.php:981
+#: transcargo/inc/vc-config.php:1032 transcargo/inc/vc-config.php:1044
+#: transcargo/inc/vc-config.php:1054 transcargo/inc/vc-config.php:1061
+#: transcargo/inc/vc-config.php:1070
+msgid "Carousel"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:316 transcargo/inc/vc-config.php:616
+#: transcargo/inc/vc-config.php:924 transcargo/inc/vc-config.php:1036
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:319 transcargo/inc/vc-config.php:619
+#: transcargo/inc/vc-config.php:927 transcargo/inc/vc-config.php:1039
+msgid "Autoplay interval timeout (in ms)."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:328 transcargo/inc/vc-config.php:628
+msgid "Hide pagination control"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:330 transcargo/inc/vc-config.php:630
+msgid "If checked, pagination controls will be hidden."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:338 transcargo/inc/vc-config.php:638
+#: transcargo/inc/vc-config.php:936 transcargo/inc/vc-config.php:1048
+msgid "Slider loop"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:340 transcargo/inc/vc-config.php:640
+#: transcargo/inc/vc-config.php:938 transcargo/inc/vc-config.php:1050
+msgid "Enable slider loop mode."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:348 transcargo/inc/vc-config.php:648
+#: transcargo/inc/vc-config.php:946 transcargo/inc/vc-config.php:1058
+msgid "Smart Speed"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:355 transcargo/inc/vc-config.php:655
+#: transcargo/inc/vc-config.php:953
+msgid "Items"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:358 transcargo/inc/vc-config.php:658
+#: transcargo/inc/vc-config.php:956
+msgid "The number of items you want to see on the screen."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:363 transcargo/inc/vc-config.php:663
+#: transcargo/inc/vc-config.php:961
+msgid "Items (Small Desktop)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:366 transcargo/inc/vc-config.php:666
+#: transcargo/inc/vc-config.php:964
+msgid ""
+"Number of items the carousel will display. Default: at <980px - 3 items."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:371 transcargo/inc/vc-config.php:671
+#: transcargo/inc/vc-config.php:969
+msgid "Items (Tablet)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:374 transcargo/inc/vc-config.php:674
+#: transcargo/inc/vc-config.php:972
+msgid ""
+"Number of items the carousel will display. Default: at <768px - 2 items."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:379 transcargo/inc/vc-config.php:679
+#: transcargo/inc/vc-config.php:977
+msgid "Items (Mobile)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:382 transcargo/inc/vc-config.php:682
+#: transcargo/inc/vc-config.php:980
+msgid "Number of items the carousel will display. Default: at <479px - 1 item."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:387 transcargo/inc/vc-config.php:426
+#: transcargo/inc/vc-config.php:464 transcargo/inc/vc-config.php:570
+#: transcargo/inc/vc-config.php:687 transcargo/inc/vc-config.php:722
+#: transcargo/inc/vc-config.php:879 transcargo/inc/vc-config.php:985
+#: transcargo/inc/vc-config.php:1074 transcargo/inc/vc-config.php:1123
+#: transcargo/inc/vc-config.php:1232 transcargo/inc/vc-config.php:1246
+#: transcargo/inc/vc-config.php:1259 transcargo/inc/vc-config.php:1272
+#: transcargo/inc/vc-config.php:1285 transcargo/inc/vc-config.php:1350
+#: transcargo/inc/vc-config.php:1388 transcargo/inc/vc-config.php:1402
+#: transcargo/inc/vc-config.php:1415 transcargo/inc/vc-config.php:1428
+#: transcargo/inc/vc-config.php:1470 transcargo/inc/vc-config.php:1504
+#: transcargo/inc/vc-config.php:1535
+msgid "Css"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:389 transcargo/inc/vc-config.php:428
+#: transcargo/inc/vc-config.php:466 transcargo/inc/vc-config.php:572
+#: transcargo/inc/vc-config.php:689 transcargo/inc/vc-config.php:724
+#: transcargo/inc/vc-config.php:881 transcargo/inc/vc-config.php:987
+#: transcargo/inc/vc-config.php:1076 transcargo/inc/vc-config.php:1125
+#: transcargo/inc/vc-config.php:1234 transcargo/inc/vc-config.php:1352
+#: transcargo/inc/vc-config.php:1390 transcargo/inc/vc-config.php:1472
+#: transcargo/inc/vc-config.php:1506 transcargo/inc/vc-config.php:1537
+msgid "Design options"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:395
+msgid "Services Grid"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:408
+msgid "Posts Per Row"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:419 transcargo/inc/vc-config.php:457
+#: transcargo/inc/vc-config.php:907 transcargo/inc/vc-config.php:1019
+msgid "Image size"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:422 transcargo/inc/vc-config.php:460
+#: transcargo/inc/vc-config.php:910 transcargo/inc/vc-config.php:1022
+#: transcargo/inc/vc-config.php:1526
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use default size."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:434
+msgid "Service Info Block"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:447 transcargo/inc/vc-config.php:1340
+msgid "Content"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:472
+msgid "Counter"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:485
+msgid "Font Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:490
+msgid "Counter Value"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:496
+msgid "Duration"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:502 transcargo/inc/vc-config.php:737
+msgid "Drawing Icon"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:510 transcargo/inc/vc-config.php:1117
+#: transcargo/inc/vc-config.php:1204
+msgid "Extra class name"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:512 transcargo/inc/vc-config.php:1119
+#: transcargo/inc/vc-config.php:1206
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:539 transcargo/inc/vc-config.php:861
+msgid "Icon Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:545 transcargo/inc/vc-config.php:808
+msgid "Icon Wrapper Width (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:552 transcargo/inc/vc-config.php:779
+msgid "Icon Width (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:585
+msgid "Number Testimonials"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:591 transcargo/inc/vc-config.php:1442
+#: transcargo/inc/vc-config.php:1484
+#: transcargo/inc/customizer/registration.php:113
+msgid "Style"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:600
+msgid "Category"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:695 transcargo/partials/title_box.php:5
+msgid "News"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:708
+msgid "Query"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:717 transcargo/inc/vc-config.php:856
+#: transcargo/inc/vc-config.php:1345
+msgid "Link"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:746
+msgid "Icon Position"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:749
+msgid "Top"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:750 transcargo/inc/vc-config.php:849
+#: transcargo/inc/customizer/registration.php:603
+msgid "Left"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:797
+msgid "Icon Wrapper Height (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:822 transcargo/inc/vc-config.php:828
+#: transcargo/inc/vc-config.php:835 transcargo/inc/vc-config.php:842
+#: transcargo/inc/vc-config.php:869 transcargo/inc/vc-config.php:875
+msgid "Title/Text"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:832
+msgid "Title Font Size (px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:839
+msgid "Title Font Weight"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:846
+msgid "Align"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:850
+msgid "Center"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:851
+#: transcargo/inc/customizer/registration.php:604
+msgid "Right"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:873
+msgid "Text Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:887
+msgid "Image Carousel"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:894 transcargo/inc/vc-config.php:1000
+msgid "Images"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:899
+msgid "Enable Grayscale"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:993
+msgid "Image Gallery"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1005
+msgid "Show Image Title"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1013
+msgid "Gallery Width (in px.)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1065
+msgid "Vertical Navigation"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1082
+msgid "Google Map"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1092
+msgid "Map Height"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1095
+msgid "Enter map height in px"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1099
+msgid "Map Zoom"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1105
+msgid "Marker Image"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1112
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1131 transcargo/inc/vc-config.php:1145
+msgid "Address"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1160
+msgid "Latitude"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1162 transcargo/inc/vc-config.php:1168
+msgid ""
+"<a href=\"http://www.latlong.net/convert-address-to-lat-long.html\">Here is "
+"a tool</a> where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1166
+msgid "Longitude"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1174 transcargo/inc/widgets/posts.php:7
+msgid "STM Recent Posts"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1177
+msgid "STM Widgets"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1178
+msgid "The most recent posts on your site"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1182
+msgid "Widget title"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1184
+msgid ""
+"What text use as a widget title. Leave blank to use default widget title."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1185 transcargo/inc/widgets/posts.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1189
+msgid "Number of posts"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1190
+msgid "Enter number of posts to display."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1197 transcargo/inc/widgets/posts.php:126
+msgid "Display post date?"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1200
+msgid "If checked, date will be displayed."
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1212
+msgid "Select"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1220
+msgid "STM Sidebar"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1226
+msgid "Sidebar"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1240
+msgid "Details"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1242 transcargo/inc/vc-config.php:1255
+#: transcargo/inc/vc-config.php:1268 transcargo/inc/vc-config.php:1281
+msgid "STM Post Partials"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1253
+msgid "Bottom Info"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1266
+msgid "About Author"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1292
+msgid "Pricing Table"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1304
+msgid "Sticker"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1312
+msgid "Sticker Title"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1314
+msgid "Recomended!"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1322
+msgid "Price"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1328
+msgid "Prefix"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1334
+msgid "Suffix"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1336
+msgid "per month"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1358
+msgid "Circle Progress"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1366
+msgid "WordPress"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1371
+msgid "Value (in %)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1377
+msgid "Circle Width / Height (in px)"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1383
+msgid "Fill Color"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1396
+msgid "Vacancy Bottom"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1398 transcargo/inc/vc-config.php:1411
+msgid "STM Vacancy Partials"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1409
+msgid "About Vacancy"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1435
+msgid "Staff List"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1445
+msgid "List"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1446 transcargo/inc/vc-config.php:1487
+msgid "Grid"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1451
+msgid "Staff Per Row"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1464
+msgid "Count"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1488
+msgid "Masonry"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1493
+msgid "Cols"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1512
+msgid "Video Popup"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1518
+msgid "Preview"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1523
+msgid "Preview size"
+msgstr ""
+
+#: transcargo/inc/vc-config.php:1530
+msgid "Video URL"
+msgstr ""
+
+#: transcargo/inc/customizer/google-fonts.php:7
+#: transcargo/inc/customizer/controls/post-type.php:15
+msgid "--- Default ---"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:6
+msgid "Instagram"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:8
+msgid "Vimeo"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:10
+msgid "Behance"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:11
+msgid "Dribbble"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:12
+msgid "Flickr"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:13
+msgid "Git"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:14
+msgid "Pinterest"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:15
+msgid "Yahoo"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:16
+msgid "Delicious"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:17
+msgid "Dropbox"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:18
+msgid "Reddit"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:19
+msgid "Soundcloud"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:20
+msgid "Google"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:22
+msgid "Youtube"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:23
+msgid "Tumblr"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:24
+msgid "Whatsapp"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:25
+msgid "Odnoklassniki"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:26
+msgid "Vk"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:31
+msgid "Site Settings"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:35
+msgid "Header"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:39
+msgid "Footer"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:43
+msgid "Post Types"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:47
+msgid "Typography"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:53
+msgid "Logo &amp; Title"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:61
+#: transcargo/inc/customizer/registration.php:262
+msgid "Logo"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:65
+#: transcargo/inc/customizer/registration.php:266
+msgid "Width"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:72
+#: transcargo/inc/customizer/registration.php:273
+msgid "Height"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:79
+msgid "Margin Top"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:86
+msgid "Margin Bottom"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:99
+#: transcargo/inc/customizer/registration.php:104
+msgid "Static Front Page"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:109
+msgid "Style &amp; Settings"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:117
+msgid "Green"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:118
+msgid "Orange"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:119
+msgid "Purple"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:120
+msgid "Red"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:121
+msgid "Turquoise"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:122
+msgid "Yellow"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:123
+msgid "Custom Colors"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:127
+msgid "Custom Base Color"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:132
+msgid "Custom Secondary Color"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:137
+msgid "Frontend Customizer"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:142
+msgid "Enable Boxed Layout"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:158
+msgid "Custom Bg Image"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:165
+msgid "Enable Top Bar"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:171
+msgid "Enable WPML Switcher"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:182
+msgid "Office "
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:184
+msgid "for dropdown options"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:187
+msgid "Phone number"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:191
+msgid "Phone Icon"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:200
+msgid "Email Icon"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:205
+msgid "Working Hours"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:209
+msgid "Hours Icon"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:219
+msgid "Top Bar"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:225
+msgid "Header Appearance"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:229
+msgid "Enable Header Search"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:234
+msgid "Search Text"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:250
+msgid "Sticky Menu"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:258
+#: transcargo/inc/customizer/registration.php:563
+#: transcargo/partials/frontend_customizer.php:35
+msgid "Layout"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:283
+msgid "Additional Widget Areas"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:297
+msgid "Footer Text"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:302
+msgid "Copyright"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:303
+#: transcargo/inc/customizer/registration.php:304
+msgid ""
+"Copyright &copy; 2012-2015 Logistics Theme by <a href=\"http://"
+"stylemixthemes.com/\" target=\"_blank\">Stylemix Themes</a>. All rights "
+"reserved"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:311
+msgid "Footer Socials"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:322
+msgid "Body"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:326
+msgid "Base Font Family"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:332
+msgid "Secondary Font Family"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:338
+#: transcargo/inc/customizer/registration.php:359
+#: transcargo/inc/customizer/registration.php:388
+#: transcargo/inc/customizer/registration.php:417
+#: transcargo/inc/customizer/registration.php:446
+#: transcargo/inc/customizer/registration.php:475
+#: transcargo/inc/customizer/registration.php:504
+#: transcargo/inc/customizer/registration.php:533
+msgid "Font Weight"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:344
+#: transcargo/inc/customizer/registration.php:365
+#: transcargo/inc/customizer/registration.php:394
+#: transcargo/inc/customizer/registration.php:423
+#: transcargo/inc/customizer/registration.php:452
+#: transcargo/inc/customizer/registration.php:481
+#: transcargo/inc/customizer/registration.php:510
+#: transcargo/inc/customizer/registration.php:539
+msgid "Font Size"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:355
+msgid "Paragraph"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:373
+#: transcargo/inc/customizer/registration.php:402
+#: transcargo/inc/customizer/registration.php:431
+#: transcargo/inc/customizer/registration.php:460
+#: transcargo/inc/customizer/registration.php:489
+#: transcargo/inc/customizer/registration.php:518
+#: transcargo/inc/customizer/registration.php:547
+msgid "Line Height"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:384
+msgid "H1"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:413
+msgid "H2"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:442
+msgid "H3"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:471
+msgid "H4"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:500
+msgid "H5"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:529
+msgid "H6"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:558
+msgid "Archive Pages"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:565
+msgid "Grid View"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:566
+msgid "List View"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:575
+msgid "Sidebar Type"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:577
+msgid "Wordpress Sidebars"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:588
+msgid "Wordpress Sidebar"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:601
+msgid "Sidebar - Position"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:615
+msgid "Socials"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:635
+#: transcargo/inc/customizer/registration.php:662
+#: transcargo/inc/customizer/registration.php:689
+#: transcargo/inc/customizer/registration.php:716
+msgid "Plural Title"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:640
+#: transcargo/inc/customizer/registration.php:667
+#: transcargo/inc/customizer/registration.php:694
+#: transcargo/inc/customizer/registration.php:721
+msgid "Rewrite (URL text)"
+msgstr ""
+
+#: transcargo/inc/customizer/registration.php:734
+msgid "Custom CSS"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:12
+msgid "Ultra Light"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:13
+msgid "Ultra Light Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:14
+msgid "Light"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:15
+msgid "Light Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:16
+msgid "Book"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:17
+msgid "Book Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:18
+msgid "Regular"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:19
+msgid "Regular Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:20
+msgid "Medium"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:21
+msgid "Medium Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:22
+msgid "Semi-Bold"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:23
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:24
+msgid "Bold"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:25
+msgid "Bold Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:26
+msgid "Extra Bold"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:27
+msgid "Extra Bold Italic"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:28
+msgid "Ultra Bold"
+msgstr ""
+
+#: transcargo/inc/customizer/controls/font-weight.php:29
+msgid "Ultra Bold Italic"
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:9
+msgid "Demo Import"
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:20
+msgid "Importing Demo Content..."
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:21
+msgid "Duration of demo content importing depends on your server speed."
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:25
+#, php-format
+msgid ""
+"Congratulations and enjoy <a href=\"%s\" target=\"_blank\">your website</a> "
+"now!"
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:33
+msgid "Before installing the demo content, please NOTE:"
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:34
+#, php-format
+msgid ""
+"Install the demo content only on a clean WordPress. Use <a href=\"%s\" "
+"target=\"_blank\">Wordpress Database Reset</a> plugin to clean the current "
+"Theme."
+msgstr ""
+
+#: transcargo/inc/demo/demo_import.php:35
+msgid ""
+"Remember that you will NOT get the images from live demo due to copyright / "
+"license reason."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/parsers.php:42
+#: transcargo/inc/demo/wordpress-importer/parsers.php:78
+#: transcargo/inc/demo/wordpress-importer/parsers.php:86
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/parsers.php:90
+#: transcargo/inc/demo/wordpress-importer/parsers.php:95
+#: transcargo/inc/demo/wordpress-importer/parsers.php:291
+#: transcargo/inc/demo/wordpress-importer/parsers.php:480
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:134
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:143
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:194
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:198
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:511
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:1032
+msgid "Import WordPress"
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:1039
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:1054
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: transcargo/inc/demo/wordpress-importer/wordpress-importer.php:1055
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:399
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:828
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:935
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3370
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3370
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: transcargo/inc/tgm/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: transcargo/inc/widgets/posts.php:6
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: transcargo/inc/widgets/posts.php:115
+#: transcargo/inc/widgets/widget_contacts.php:80
+msgid "Title:"
+msgstr ""
+
+#: transcargo/inc/widgets/posts.php:120
+msgid "Number of posts to show:"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:6
+msgid "Contacts"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:55
+msgid "Contact"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:84
+msgid "Address:"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:88
+msgid "Phone:"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:92
+msgid "Fax:"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:96
+msgid "E-mail:"
+msgstr ""
+
+#: transcargo/inc/widgets/widget_contacts.php:100
+msgid "Hours:"
+msgstr ""
+
+#: transcargo/partials/content-about_author.php:8
+msgid "Author"
+msgstr ""
+
+#: transcargo/partials/content-about_vacancy.php:4
+msgid "Department:"
+msgstr ""
+
+#: transcargo/partials/content-about_vacancy.php:10
+msgid "Project Location(s):"
+msgstr ""
+
+#: transcargo/partials/content-about_vacancy.php:16
+msgid "Education:"
+msgstr ""
+
+#: transcargo/partials/content-about_vacancy.php:22
+msgid "Compensation:"
+msgstr ""
+
+#: transcargo/partials/content-none.php:3
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: transcargo/partials/content-none.php:7
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: transcargo/partials/content-none.php:11
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: transcargo/partials/content-page.php:16
+#: transcargo/partials/content-vacancy.php:29
+#: transcargo/partials/content.php:40
+msgid "Pages:"
+msgstr ""
+
+#: transcargo/partials/content-page.php:20
+#: transcargo/partials/content-vacancy.php:33
+msgid "Page"
+msgstr ""
+
+#: transcargo/partials/content-post_details.php:8
+msgid "Posted by"
+msgstr ""
+
+#: transcargo/partials/content-post_details.php:11
+#: transcargo/partials/loop-list.php:20
+msgid "Category:"
+msgstr ""
+
+#: transcargo/partials/content-vacancy_bottom.php:5
+msgid "Contact Us"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:3
+msgid "Color Skin"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:26
+msgid "Nav Mode"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:29
+msgid "Static"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:31
+msgid "Sticky"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:38
+msgid "Wide"
+msgstr ""
+
+#: transcargo/partials/frontend_customizer.php:40
+msgid "Boxed"
+msgstr ""
+
+#: transcargo/partials/loop-grid.php:21
+#: transcargo/vc_templates/stm_services.php:43
+#: transcargo/vc_templates/stm_services_grid.php:43
+msgid "read more"
+msgstr ""
+
+#: transcargo/partials/title_box.php:5
+msgid "Careers"
+msgstr ""
+
+#: transcargo/vc_templates/stm_news.php:48
+msgid "learn more"
+msgstr ""
+
+#: transcargo/vc_templates/stm_vacancies.php:19
+msgid "Job Posting Title"
+msgstr ""
+
+#: transcargo/vc_templates/stm_vacancies.php:22
+msgid "Date"
+msgstr ""

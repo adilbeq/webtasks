@@ -1,0 +1,62 @@
+/******************************          Info Box 02          ******************************/
+	.features_03 {
+		.section_container {
+			display: flex;
+			justify-content: center;
+		}
+		.play_btn {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			img {
+				cursor: pointer;
+				width: 160px;
+			}
+		}
+		.features_list {
+			display: flex;
+			margin-bottom: 60px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.item {
+				i {
+					font-size: 50px;
+					margin-bottom: 30px;
+					color: #272e40;
+				}
+				h5 {
+					margin-bottom: 15px;
+				}
+			}
+		}
+
+		@media screen and (max-width: 991px) {
+			.features_list {
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 0px;
+				.item {
+					margin-bottom: 30px;
+					&:first-child {
+						margin-top: 30px;
+					}					
+					i {
+						font-size: 50px;
+						margin-bottom: 30px;
+						color: #000;
+					}
+					h5 {
+						margin-bottom: 15px;
+					}
+				}
+				&:last-child {
+					.item:last-child {
+							margin-bottom: 0px;
+
+						}
+				}
+			}
+		}
+	}

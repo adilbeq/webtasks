@@ -1,0 +1,35 @@
+body{
+  .vc_general.vc_cta3{
+    padding: 55px 0;
+    &.vc_cta3-actions-right{
+      .vc_cta3-content{
+        width: 1000px;
+      }
+    }
+    &.vc_cta3-style-classic, &.vc_cta3-style-custom{
+      &.secondary_bg_color{
+        background-color: $stm_secondary_color;
+        border-color: $stm_secondary_color;
+        border: none;
+      }
+    }
+    h2{
+      &:before{
+        display: none;
+      }
+      margin: 0;
+      font-size: 30px;
+      line-height: 48px;
+      font-weight: 500;
+      color: #fff;
+      text-transform: none;
+    }
+    h4{
+      &:before{
+        display: none;
+      }
+      margin: 0;
+      text-transform: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+body .vc_row.overlay.vc_parallax{
+  .vc_parallax-inner{
+    &:before{
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(255,255,255,.5);
+    }
+  }
+}
+
+@import "rev_slider_vc";
+@import "vc_btn";
+@import "stm_services";
+@import "stm_services_grid";
+@import "stm_counter";
+@import "vc_cta";
+@import "stm_testimonials";
+@import "stm_news";
+@import "stm_icon";
+@import "stm_image_carousel";
+@import "stm_image_gallery";
+@import "stm_gmap";
+@import "vc_gallery";
+@import "vc_tta";
+@import "stm_pricing_table";
+@import "stm_circle_progress";
+@import "vc_progress_bar";
+@import "vc_separator";
+@import "vc_message_box";
+@import "stm_vacancies";
+@import "stm_staff_list";
+@import "stm_gallery";
+@import "stm_sercice_info";
+@import "stm_video_popup";

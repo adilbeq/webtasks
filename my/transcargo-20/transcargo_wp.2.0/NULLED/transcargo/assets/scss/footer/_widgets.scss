@@ -1,0 +1,261 @@
+#footer {
+  .footer_widgets {
+    position: relative;
+    padding: 68px 0 0;
+    .widget_title {
+      margin-bottom: 40px;
+    }
+  }
+  .widget_title {
+    position: relative;
+    color: #fff;
+    opacity: .7;
+    margin: 0 0 27px;
+    font-weight: 600;
+    &:before {
+      display: none;
+    }
+  }
+  .widget_mc4wp_form_widget{
+    .widget_title {
+      margin-bottom: 28px;
+    }
+    form.mc4wp-form {
+      position: relative;
+      .stm_newsletter_form {
+        input[type="email"] {
+          width: 100%;
+          display: block;
+          border: none;
+          font-size: 14px;
+          padding: 11px 40px 11px 15px;
+          outline: none !important;
+          box-shadow: none !important;
+          &:focus{
+            border: 2px solid $stm_secondary_color !important;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 14px;
+          }
+        }
+        input[type="submit"] {
+          position: absolute;
+          left: 0;
+          top: 0;
+          visibility: hidden;
+        }
+        label {
+          position: absolute;
+          right: 0;
+          top: 0;
+          border: none;
+          width: 40px;
+          height: 40px;
+          line-height: 42px;
+          padding: 0;
+          cursor: pointer;
+          text-align: center;
+          font-size: 13px;
+          background: none;
+          color: $stm_secondary_color;
+          outline: none !important;
+          @include transition(color);
+          &:hover {
+            color: $stm_base_color;
+          }
+        }
+      }
+    }
+  }
+
+  .widget_categories, .widget_archive, .widget_pages, .widget_meta, .widget_recent_comments, .widget_recent_entries, .widget_rss, .widget_nav_menu {
+    position: relative;
+    border: none;
+    padding: 0;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        position: relative;
+        margin: 0 0 22px;
+        padding: 0 0 0 20px;
+        text-transform: none;
+        line-height: 1;
+        &:before {
+          content: "\f105";
+          @include fa();
+          position: absolute;
+          left: 0;
+          top: 0;
+          color: rgba(255, 255, 255, .25);
+        }
+        a {
+          color: rgba(255, 255, 255, .7);
+          text-decoration: none !important;
+          font-weight: 400;
+          @include transition();
+          &:hover {
+            color: #fff;
+          }
+        }
+        &.current_page_item, &.current-menu-parent {
+          a {
+            color: #fff;
+          }
+        }
+        ul.children, ul.sub-menu{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .tp_recent_tweets {
+    position: relative;
+    float: none;
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li {
+        position: relative;
+        float: none;
+        background: none;
+        padding: 0 0 0 30px;
+        margin: 0 0 30px;
+        line-height: 22px;
+        font-size: 13px;
+        color: rgba(255, 255, 255, .7);
+        span{
+          line-height: 20px;
+        }
+        a {
+          font-weight: 400;
+        }
+        &:before {
+          content: "\f099";
+          @include fa();
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 18px;
+          color: rgba(255, 255, 255, .5);
+        }
+        .twitter_time {
+          position: relative;
+          font-size: 11px;
+          color: rgba(255, 255, 255, .4);
+          text-decoration: none !important;
+          padding-left: 12px;
+          @include transition();
+          &:before {
+            content: '';
+            width: 8px;
+            height: 1px;
+            background: rgba(255, 255, 255, .4);
+            position: absolute;
+            left: 0;
+            top: 5px;
+          }
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .widget_contacts {
+    position: relative;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0 0 19px;
+        @include cleaner();
+        .icon {
+          float: left;
+          text-align: center;
+          width: 16px;
+          margin-right: 14px;
+          color: rgba(255, 255, 255, .5);
+          font-size: 16px;
+          .stm-email {
+            font-size: 12px;
+            display: block;
+            padding-top: 4px;
+          }
+        }
+        .text {
+          overflow: hidden;
+          color: rgba(255, 255, 255, .7);
+          p{
+            line-height: 20px;
+            font-size: 13px;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .widget_calendar{
+    .widget_title{
+      margin-bottom: 25px;
+    }
+    #calendar_wrap{
+      table{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.7);
+        caption{
+          font-weight: 700;
+          text-transform: uppercase;
+          color: rgba(255, 255, 255, 0.7);
+          margin: 0 0 15px;
+        }
+        td, th{
+          text-align: center;
+          font-size: 14px;
+          padding: 10px 5px;
+        }
+        thead{
+          th{
+            background: $stm_secondary_color;
+            color: #fff;
+          }
+        }
+        tbody{
+          border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+        tfoot{
+          #prev{
+            text-align: left;
+          }
+          #right{
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+  .widget_tag_cloud {
+    .tagcloud {
+      font-size: 0;
+      a {
+        display: inline-block;
+        vertical-align: top;
+        padding: 7px 12px 8px;
+        font-size: 13px !important;
+        color: rgba(255, 255, 255, 0.7);
+        border: 1px solid $stm_secondary_color;
+        @include border-radius(30px);
+        margin: 0 8px 10px 0;
+        text-decoration: none !important;
+        @include transition();
+        &:hover{
+          background: $stm_secondary_color;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

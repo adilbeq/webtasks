@@ -1,0 +1,24 @@
+body{
+  .vc_separator{
+    &.vc_sep_double{
+      .vc_sep_line{
+        height: 4px;
+      }
+    }
+    &.vc_sep_color_grey{
+      .vc_sep_line{
+        border-top: 1px solid #E6E6E6;
+      }
+    }
+    &.vc_separator_align_center{
+      h4{
+        padding: 0 20px;
+      }
+    }
+    h4 {
+      &:before {
+        display: none;
+      }
+    }
+  }
+}

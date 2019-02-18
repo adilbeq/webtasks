@@ -1,0 +1,161 @@
+#footer {
+  position: relative;
+  background: $stm_base_color;
+  .widgets_row {
+    position: relative;
+    .footer_logo {
+      position: relative;
+      margin: -13px 0 20px;
+      a {
+        display: inline-block;
+        vertical-align: top;
+        img {
+          display: block;
+          height: 39px;
+          width: auto;
+        }
+      }
+    }
+    .footer_text {
+      color: #fff;
+      opacity: .7;
+      margin: 0 0 40px;
+      p{
+        margin: 0;
+      }
+    }
+  }
+  .copyright_row {
+    position: relative;
+    .copyright_row_wr {
+      border-top: 1px solid rgba(255, 255, 255, .25);
+      padding: 20px 0 12px;
+      @include cleaner();
+      .socials{
+        position: relative;
+        float: right;
+        width: 50%;
+        ul{
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          float: right;
+          @include cleaner();
+          li{
+            float: left;
+            margin: 0 0 8px 8px;
+            a{
+              display: block;
+              width: 32px;
+              height: 32px;
+              @include border-radius(32px);
+              background: rgba(255, 255, 255, .25);
+              text-align: center;
+              line-height: 32px;
+              color: $stm_base_color;
+              font-size: 17px;
+              text-decoration: none !important;
+              @include transition();
+              i{
+                line-height: 34px;
+                &.fa-vimeo{
+                  font-size: 14px;
+                }
+                &.stm-google-plus{
+                  font-size: 13px;
+                }
+              }
+              &:hover{
+                background: $stm_secondary_color;
+                color: #fff;
+              }
+              &.social-facebook:hover{
+                background: #3a5897;
+              }
+              &.social-twitter:hover{
+                background: #00aced;
+              }
+              &.social-instagram:hover{
+                background: #ac907a;
+              }
+              &.social-google-plus:hover{
+                background: #db4437;
+              }
+              &.social-vimeo:hover{
+                background: #44bbff;
+              }
+              &.social-linkedin:hover{
+                background: #0077b5;
+              }
+              &.social-behance:hover{
+                background: #1769ff;
+              }
+              &.social-dribbble:hover{
+                background: #ec4989;
+              }
+              &.social-flickr:hover{
+                background: #128fdc;
+              }
+              &.social-github:hover{
+                background: #fff;
+                color: #333333;
+              }
+              &.social-pinterest:hover{
+                background: #cb2027;
+              }
+              &.social-yahoo:hover{
+                background: #500095;
+              }
+              &.social-delicious:hover{
+                background: #3399ff;
+              }
+              &.social-dropbox:hover{
+                background: #1081de;
+              }
+              &.social-reddit:hover{
+                background: #ff4500;
+              }
+              &.social-soundcloud:hover{
+                background: #ff6600;
+              }
+              &.social-google:hover{
+                background: #4285f4;
+              }
+              &.social-skype:hover{
+                background: #00aff0;
+              }
+              &.social-youtube:hover{
+                background: #cc181e;
+              }
+              &.social-tumblr:hover{
+                background: #529ecc;
+              }
+              &.social-vk:hover{
+                background: #49739f;
+              }
+              &.social-odnoklassniki:hover{
+                background: #f58220;
+              }
+              &.social-whatsapp:hover{
+                background: #4cda64;
+              }
+            }
+          }
+        }
+      }
+      .copyright{
+        float: left;
+        font-size: 13px;
+        line-height: 15px;
+        color: rgba(255, 255, 255, .7);
+        width: 50%;
+        padding: 9px 0 17px;
+        a{
+          color: $stm_secondary_color;
+        }
+      }
+    }
+  }
+}
+
+@import "widgets";
